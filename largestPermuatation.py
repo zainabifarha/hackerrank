@@ -1,6 +1,7 @@
 n, k = map(int, input().split())
 inputArray = list(map(int, input().split()))
 indexArray = [0] * (n + 1)
+
 if k < n:
     for i in range(n):
         indexArray[inputArray[i]] = i;
